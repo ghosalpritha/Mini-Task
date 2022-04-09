@@ -1,0 +1,27 @@
+.fadein {
+    position: relative;
+    height: 432px;
+    margin: 25;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+
+.fadein img {
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    object-fit: scale-down;
+}
+
+.button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
